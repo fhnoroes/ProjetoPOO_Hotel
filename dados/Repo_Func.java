@@ -3,7 +3,7 @@ package org.dados;
 import org.negocio.Funcionário;
 import java.util.ArrayList;
 
-public class Repo_Func extends Repositório{
+public class Repo_Func implements IRepositório{
     
     private ArrayList<Funcionário> funcs = new ArrayList();
     

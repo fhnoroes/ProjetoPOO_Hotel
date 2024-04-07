@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.negocio.Quarto;
 import org.negocio.QuartoBasic;
 import org.negocio.QuartoPremium;
-public class Repo_Quarto extends Repositório {
+public class Repo_Quarto implements IRepositório {
     protected ArrayList<Quarto> listaQuarto = new ArrayList();
 
    

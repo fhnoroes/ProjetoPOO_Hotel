@@ -3,7 +3,7 @@ package org.dados;
 import org.negocio.Reserva;
 import java.util.ArrayList;
 
-public class Repo_Reserva extends Repositório {
+public class Repo_Reserva implements IRepositório {
    private ArrayList<Reserva> reservas = new ArrayList();
    public Repo_Reserva(){
     }

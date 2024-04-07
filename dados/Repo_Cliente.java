@@ -3,7 +3,7 @@ package org.dados;
 
 import java.util.ArrayList;
 import org.negocio.Cliente;
-public class Repo_Cliente extends Repositório{
+public class Repo_Cliente implements IRepositório{
 private ArrayList<Cliente> clientes = new ArrayList();
 
    
